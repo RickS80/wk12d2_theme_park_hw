@@ -18,5 +18,13 @@ public class TobaccoStall extends Stall implements ISecurity {
     }
 
 
+    @Override
+    public double defaultPrice() {
+        return 6.6;
+    }
 
+    @Override
+    public double priceFor(Visitor visitor) {
+        return 6.6;
+    }
 }

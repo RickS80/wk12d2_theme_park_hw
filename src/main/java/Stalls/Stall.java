@@ -1,8 +1,9 @@
 package Stalls;
 
 import Interfaces.IReviewed;
+import Interfaces.ITicketed;
 
-public abstract class Stall implements IReviewed {
+public abstract class Stall implements IReviewed, ITicketed {
 
     private String name;
     private String ownerName;
@@ -43,4 +44,6 @@ public abstract class Stall implements IReviewed {
     public void setParkingSpot(int parkingSpot) {
         this.parkingSpot = parkingSpot;
     }
+
+
 }

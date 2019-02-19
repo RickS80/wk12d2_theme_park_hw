@@ -27,4 +27,7 @@ public class TobaccoStallTest {
     public void buyTobaccoFail(){
         assertEquals(false, tobaccoStall.isAllowedTo(visitor2));
     }
+
+    @Test
+    
 }
